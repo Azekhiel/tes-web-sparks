@@ -1,0 +1,102 @@
+body {
+    background: linear-gradient(135deg, #f1ece3, #ffb974, #ff5733);
+    font-family: 'Poppins', sans-serif; 
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px;
+    font-size: 36px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom: 4px solid #ff5733;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #9b4d15;
+    padding: 15px;
+    border-bottom: 3px solid #ffb974;
+  }
+  
+  nav a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #ff5733;
+    transform: scale(1.1);
+  }
+  
+  .info-box {
+    background-color: #fef7e0;
+    padding: 25px;
+    border-radius: 12px;
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  .info-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #fff3e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #d35400;
+    border-bottom: 2px solid #ff5733;
+    display: inline-block;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff5733;
+    color: white;
+  }
+  
+  button {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #c0392b;
+    transform: translateY(-3px);
+  }
+  
+  .aos-init {
+    opacity: 0;
+  }
+  
+  .aos-animate {
+    opacity: 1;
+  }
+  
+  
